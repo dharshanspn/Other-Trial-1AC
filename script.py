@@ -11,7 +11,6 @@ import multiprocessing
 
 # Account credentials (you can add more accounts here)
 accounts = [
-    {"username": "itika.singh@triviumservice.com", "password": "Cik-1604-24@021", "user_bot_chatID": '1296818887', "account_name": "Ithika", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM", "accept_option": "True", "start_time": "9", "end_time": "22"},
     {"username": "narasimha.makireddi1@gmail.com", "password": "Narasimha@123", "user_bot_chatID": '6147872425', "account_name": "Ashish", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM", "accept_option": "False", "start_time": "0", "end_time": "25"},
     # Add more accounts if necessary
 ]
