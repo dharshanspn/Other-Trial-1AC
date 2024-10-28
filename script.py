@@ -11,11 +11,14 @@ import multiprocessing
 
 # Account credentials (you can add more accounts here)
 accounts = [
-    {"username": "narasimha.makireddi1@gmail.com", "password": "Narasimha@123", "user_bot_chatID": '6147872425', "account_name": "Ashish", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM", "accept_option": "False", "start_time": "0", "end_time": "25"},
+    {"username": "narasimha.makireddi1@gmail.com", "password": "Narasimha@123", "user_bot_chatID": '6147872425', "account_name": "Ashish", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
     # Add more accounts if necessary
 ]
 
 
+accept_option = False
+start_time = 0  # Starting time. Default 0. In 24-hour format
+end_time = 25  # Ending time. Default 25. In 24-hour format
 
 
 def refresh_account(account):
@@ -24,9 +27,6 @@ def refresh_account(account):
     user_bot_chatID = account["user_bot_chatID"]
     account_name = account["account_name"]
     user_bot_token = account["user_bot_token"]  # Same token for all accounts
-    accept_option = account["accept_option"]
-    start_time = account["start_time"]
-    end_time = account["end_time"]
 
     # Set up Chrome WebDriver for this account
     options = webdriver.ChromeOptions()
@@ -43,10 +43,8 @@ def refresh_account(account):
         flag_login = login_to_chegg(username, password, driver)
 
 
-
     # Start refreshing for the account
-    refresh_chegg(driver, accept_option, start_time, end_time, user_bot_token, user_bot_chatID, account_name)
-
+    refresh_chegg(driver, accept_option, start_time, end_time, user_bot_token, user_bot_chatID, account_name)  
     
 
 
