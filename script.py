@@ -12,6 +12,8 @@ import multiprocessing
 # Account credentials (you can add more accounts here)
 accounts = [
     {"username": "irfaa3553@gmail.com", "password": "Chegg@00", "user_bot_chatID": '1654027642', "account_name": "Alam", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
+    {"username": "faizan.abrar2004@gmail.com", "password": "Faizan@123", "user_bot_chatID": '1505060701', "account_name": "Faizan", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
+    {"username": "cashifalam9@gmail.com", "password": "Kashif@07036", "user_bot_chatID": '1408181592', "account_name": "Faizan", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
     #{"username": "narasimha.makireddi1@gmail.com", "password": "Narasimha@123", "user_bot_chatID": '6147872425', "account_name": "Ashish", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
     # Add more accounts if necessary
 ]
