@@ -15,7 +15,7 @@ accounts = [
     {"username": "faizan.abrar2004@gmail.com", "password": "Faizan@123", "user_bot_chatID": '1505060701', "account_name": "Faizan", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
     {"username": "cashifalam9@gmail.com", "password": "Kashif@07036", "user_bot_chatID": '1408181592', "account_name": "Faizan", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
     {"username": "shahbulbul231@gmail.com", "password": "Basit@567", "user_bot_chatID": '917579644', "account_name": "Ahmad", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
-    {"username": "zubairahmad7301@gmail.com", "password": "Zubair@111#", "user_bot_chatID": '1608665865', "account_name": "Zubair", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
+    {"username": "niyazahmad72ab@gmail.com", "password": "Niyaz@123#", "user_bot_chatID": '1608665865', "account_name": "Niyaz", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
     {"username": "zahidbinshaheen@gmail.com", "password": "Chegg@1725", "user_bot_chatID": '1476389116', "account_name": "Shaheena", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
     # Add more accounts if necessary
 ]
