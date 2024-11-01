@@ -11,12 +11,14 @@ import multiprocessing
 
 # Account credentials (you can add more accounts here)
 accounts = [
+    {"username": "niyazahmad72ab@gmail.com", "password": "Niyaz@123#", "user_bot_chatID": '1608665865', "account_name": "Niyaz", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
+    {"username": "aalianigar9667@gmail.com", "password": "Ctrl@4587", "user_bot_chatID": '1183985925', "account_name": "Shahabuddin", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
+    {"username": "mouryarahul195@gmail.com", "password": "Rahul@7339", "user_bot_chatID": '7309093453', "account_name": "Rahul", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
+    # Add more accounts if necessary
     #{"username": "cashifalam9@gmail.com", "password": "Kashif@07036", "user_bot_chatID": '1408181592', "account_name": "Alam", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
     #{"username": "shahbulbul231@gmail.com", "password": "Basit@567", "user_bot_chatID": '917579644', "account_name": "Ahmad", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
-    {"username": "niyazahmad72ab@gmail.com", "password": "Niyaz@123#", "user_bot_chatID": '1608665865', "account_name": "Niyaz", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
     #{"username": "zahidbinshaheen@gmail.com", "password": "Chegg@1725", "user_bot_chatID": '1476389116', "account_name": "Shaheena", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
-    {"username": "aalianigar9667@gmail.com", "password": "Ctrl@4587", "user_bot_chatID": '1183985925', "account_name": "Shahabuddin", "user_bot_token" : "8131045025:AAE9_BMb5i2pk479mubtilbSIUilPA25jWM"},
-    # Add more accounts if necessary
+
 ]
 
 
